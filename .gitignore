@@ -1,0 +1,12 @@
+/target/
+.run/
+.ledgernomics/
+.cursor/
+docs/
+*.pdb
+.DS_Store
+GOALS.md
+PROGRESS.md
+CONTRIBUTING.md
+
+scripts/cursor_sim_smoke.py
