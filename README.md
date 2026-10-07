@@ -1,7 +1,8 @@
 # Ledgernomics
 
-Stdio MCP that keeps project goals, non-goals, and budgeted micro-slices in
-`.ledgernomics/` YAML, and returns cache-friendly context packets for coding agents.
+Stdio MCP that keeps project goals, non-goals, and budgeted micro-slices in `.ledgernomics/` YAML, and returns cache-friendly context packets for coding agents.
+
+**Repo:** [github.com/tycheung/ledgernomics](https://github.com/tycheung/ledgernomics)
 
 ## Tools
 
@@ -27,7 +28,9 @@ cargo build --release
 ./target/release/ledgernomics --root /path/to/project
 ```
 
-Cursor MCP:
+On Windows the binary is `target\release\ledgernomics.exe`.
+
+Cursor MCP example:
 
 ```json
 {
@@ -46,3 +49,11 @@ Cursor MCP:
 ```powershell
 .\scripts\ci_check.ps1
 ```
+
+```bash
+./scripts/ci_check.sh
+```
+
+## License
+
+See [LICENSE](LICENSE).
